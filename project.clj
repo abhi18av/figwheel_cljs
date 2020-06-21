@@ -5,6 +5,6 @@
     {:dev
       {:dependencies [[org.clojure/clojurescript "1.10.773"]
                       [com.bhauman/figwheel-main "0.2.6"]]
-       :resource-paths ["target"]
+       :resource-paths ["target" "resources"]
        :clean-targets ^{:protect false} ["target"]}}
   :aliases {"fig:build" ["run" "-m" "figwheel.main" "-b" "dev" "-r"]})

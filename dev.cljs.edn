@@ -1,1 +1,3 @@
-{:main hello-world.core}
+{:main figwheel_cljs.core
+ :target :bundle
+ :bundle-cmd {:none ["npx.cmd" "webpack" "--mode=development" :output-to "-o" :final-output-to]}}
